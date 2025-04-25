@@ -11,10 +11,10 @@ This repo implements a production-oriented deep research agent capable of:
 - Key differentiator: Beyond prototyping, I focus on scalable deployment (LangFlow UI, API endpoints) and comparative benchmarks of techniques.
 
 ## Key Features:
-🤖 Multi-agent coordination for complex research tasks
-🗃️ Hybrid data layer (PostgreSQL + Neo4j + Weaviate)
-⚡ LLM optimization (GGUF quantization, LoRA fine-tuning)
-🚀 From Jupyter prototypes to LangFlow UI deployment
+- 🤖 Multi-agent coordination for complex research tasks
+- 🗃️ Hybrid data layer (PostgreSQL + Neo4j + Qdrant)
+- ⚡ LLM optimization (GGUF quantization, LoRA fine-tuning)
+- 🚀 From Jupyter prototypes to LangFlow UI deployment
 
 ## 🔧 Core Components
 #### 1. Architectures
