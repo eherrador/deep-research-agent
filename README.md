@@ -12,7 +12,7 @@ This repo implements a production-oriented deep research agent capable of:
 
 ## Key Features:
 - 🤖 Multi-agent coordination for complex research tasks
-- 🗃️ Hybrid data layer (PostgreSQL + Neo4j + Qdrant)
+- 🗃️ Hybrid data layer (SQLite + Neo4j + Qdrant)
 - ⚡ LLM optimization (GGUF quantization, LoRA fine-tuning)
 - 🚀 From Jupyter prototypes to LangFlow UI deployment
 
@@ -24,7 +24,7 @@ This repo implements a production-oriented deep research agent capable of:
 
 #### 2. Data Layer
 1. Database wars:
-    - SQL (PostgreSQL) for structured metadata.
+    - SQL (SQLite) for structured metadata.
     - Graph DB (Neo4j) for knowledge relationships.
     - Vector DB (Qdrant) for RAG pipelines.
 2. Embedding strategies:
@@ -45,7 +45,7 @@ deep-research-agent/
 ├── notebooks/               # Jupyter prototypes (MCP, A2A, DB benchmarks)  
 ├── langflow/                # UI flows for agent orchestration  
 ├── src/  
-│   ├── agents/              # smol-agents implementations  
+│   ├── agents/              # smolagents implementations  
 │   ├── data_pipelines/      # SQL/Graph/Vector DB connectors  
 │   └── llm_optimization/    # Quantization/fine-tuning scripts  
 ├── benchmarks/              # Performance metrics (latency, accuracy)  
